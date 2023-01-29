@@ -1,20 +1,11 @@
 # Description
 
-This is a blog-site using the Tailwind CSS framework.
-This site's purpose is to serve as an avenue for ideas. 
+This is a simple blog-site landing page using the Tailwind CSS framework.
 
 # Technologies:
-- HTML
+- HTML5
 - Tailwind CSS
-- JavaScript
-
-# Prerequisites
-- [ ]
-- [ ]
 
 # Instructions to run
-1) Git clone
-2) 
-
-# Testing
-
+1) Clone the code (or download as ZIP through GitHub)
+2) In the "src" follder, drag "index.html" to your favorite browser.
