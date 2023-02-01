@@ -42,22 +42,44 @@
   3rd Row the first post takes two columns and thhe 3rd post is one column
     How? FlexBox
   To Do: Responsive display later
-  -->
+  --> 
 
   <section class="main">
     <!-- For Larger Displays columns is 3 -->
     <div class="grid grid-cols-3">
         <div class="col-span-3">
         <!-- The first post -->
-        <a href="#" class="border border-gray-100 flex rounded-3xl overflow-hidden">
+        <a href="#" class="border border-gray-100 flex rounded-3xl overflow-hidden transition duration-500 hover:shadow-xl mb-12">
           <div class="w-1/2">
-            <img src="../dist/img/img1.jpg" alt="" class="">
+            <img src="../dist/img/img1.jpg" alt="image of stationery" class="">
+          </div>
+          <div class="w-1/2 p-7">
+            <p class="px-3 py-1 bg-our-bg rounded text-sec text-xs inline">FEATURED</p>
+            <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration-200 hover:text-sec">Why it is important to spend at
+              least work 5 minutes everyday to get closer to their  goals.
+            </h2>
+            <p class="text-gen pb-5">Mediocrity is within our power to change. Mediocrity begins if you decide not to do anything. 
+              Most people don't do things that are in alignment with their goals. Most people will always be mediocre because even
+              if they have a clear dream, they don't spend even 5 minutes a day trying to be closer to that goal. Another thing is that
+              some people do not understand the value of time. Don't wait for the moment you are more freer, more prepared, have a certain 
+              amount of money. If you want to succeed in something, there is no perfect time to start. Do not make the dire mistake of believing
+              you have time to do something. Another sign of mediocrity is when they have a poor attitude to learning. They are certain what
+              they know and are not willing to learn more. This keeps the in the same place while others keep growing. Keep an open
+              mind and be a lifelong learner.
+            </p>
+            <div class="flex items-center">
+              <img src="../dist/img/author1-Kiritsugu.jpg" alt="author 1 Kiritsugu" class="w-9 h-9 rounded-full">
+              <div class="pl-3">
+                <h6 class = "text-xs text-pri font-bold">Kiritsugu</h6>
+                <p class="text-xs text-gen">Anti-Mage Specialist</p>
+              </div>
+            </div>
+
           </div>
         </a>
         </div>
     </div>
   </section>
-
-
+ 
 </body>
 </html>
