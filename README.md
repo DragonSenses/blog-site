@@ -8,4 +8,4 @@ This is a simple blog-site landing page using the Tailwind CSS framework.
 
 # Instructions to run
 1) Clone the code (or download as ZIP through GitHub)
-2) In the "src" follder, drag "index.html" to your favorite browser.
+2) In the "src" folder, drag "index.html" to your favorite browser.
