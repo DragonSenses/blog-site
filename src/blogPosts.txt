@@ -1,3 +1,5 @@
+# This txt file is just a place to modify the content of the blog-cards
+
 Mediocrity is within our power to change. Mediocrity begins if you decide not to do anything. 
 Most people don't do things that are in alignment with their goals. Most people will always be mediocre because even
 if they have a clear dream, they don't spend even 5 minutes a day trying to be closer to that goal. Another thing is that
@@ -20,3 +22,22 @@ Another sign of mediocrity is when they have a poor attitude to learning. They a
 they know and are not willing to learn more. This keeps them in the same place while others keep growing. Keep an open
 mind and be a lifelong learner.
 
+
+"Blooms" is the flattering term for those who entered First High in the Course 1 curriculum due to
+higher test scores in terms of application ability, magic tolerance, and interference strength. 
+On the other hand, "Weeds" are the derogatory term applied to those who entered Course 2. The only
+difference being is that students in Course 1 have access to private lessons 
+and magic teachers while the Course 2 students do not. Although Course 1 students a more in-depth 
+instruction, while the Course 2 students only study off terminals, the curriculum is the completely
+the same. This is in no way demonstrates institutional stratification or superiority, but rather 
+only that there is a lack of availability of instructors. One's potential is not set in stone.
+
+
+"Blooms" is the flattering term for those who entered First High in the Course 1 curriculum due to
+higher test scores in ability at the time of testing. On the other hand, "Weeds" are the derogatory 
+term applied to those who entered Course 2. The only difference being is that students in Course 1 
+have access to private lessons and magic teachers while the Course 2 students do not. Although 
+Course 1 students have personal instruction while the Course 2 students only study off terminals, 
+the curriculum is the completely the same. This in no way demonstrates institutional stratification 
+or superiority, but rather only that there is a lack of available instructors. One's potential is 
+not set in stone.
