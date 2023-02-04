@@ -120,3 +120,44 @@ way to anything substantial. The loop of intrusive thoughts will come back to ha
 you'll know you're done with it when you can recall it without responding. Sending you strength 
 and resolve. The ultimate source of happiness is a mental feeling of joy, and not a wealth of material goods.
 Attain Ataraxy.
+
+## 5th Blog Post
+
+Make Progress by Curbing Dishonest Discourse (intellectual dishonesty).
+
+Dishonest discourse are subtle behaviors that impede progress, which result in a lack of intellectual 
+humility (i.e., our willingness to change). Discourse and debate are more effective in both democracy, 
+business, and life when we learn to be honest with ourselves and curb the subtle behaviors that get in 
+the way of trading real ideas.
+Dishonest discourse is one of these subtle behaviors that many people exhibit when they interact with 
+others. It's that moment when someone asks if you know a certain thing, and you say you do when you 
+really don't know it enough (or know it at all). Why do we not want to admit our ignorance in front 
+of others? When we claim to know something (but 
+really don't) just to give others the perception that 
+that we are knowledgeable or well informed, rather than honestly admitting that we do not know, 
+then that is dishonest discourse.
+Instead of answering a question we have no answer to with "I don't know" it should be "I don't know 
+the answer to that but I'll do some research. Let me get back to you on that one." Don't pretend we 
+have to know everything and don't always need to have or share an immediate opinion. This will lead 
+to more honest intellectual discourse. I used to believe that I must only rely on myself and know all
+the answers, but recently I acquired a family which made me realize new things. I've been dishonest my
+whole life, is it really ok to lower my guard and be myself again?
+
+## 6th Blog Post
+
+Improve your life with: Bootstrapping and Abstraction.
+
+Engelbart's Law states that the intrinsic rate of human performance is exponential.
+Douglas Engelbart's work in augmenting human performance was explicitly based on the 
+realization that although we use technology, the ability to improve on improvements 
+(Bootstrapping, "getting better at getting better") resides entirely within the human sphere.
+In general, bootstrapping usually refers to a self-starting process that is supposed to 
+continue or grow without external input. To pull oneself up by one's bootstraps is a phrase 
+in the US that means: to succeed by one's own efforts or abilities. Abstraction is filtering 
+out the characteristics that are irrelevant to the heart of the problem. In CS it is the process 
+of removing elements of a code or program that aren't relevant or that distract from more 
+important elements. It refers to looking at something to maintain the general form or 
+meaning without the details.  Similar in nature to the process of generalization. Can also 
+be referred to as modeling and is closely related to the concepts of theory and design. 
+Models can be considered types of abstractions per their generalization of aspects of reality. 
+
