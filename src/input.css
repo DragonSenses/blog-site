@@ -12,7 +12,12 @@
 
 /*  */
 
-.blog-card-small{
+.blog-card-featured{
+  @apply border border-gray-100 flex rounded-3xl overflow-hidden transition 
+  duration-300 hover:shadow-lg mb-12;
+}
+
+.blog-card{
   @apply border border-gray-100 rounded-2xl overflow-hidden transition 
   duration-200 hover:shadow-lg hover:border-transparent;
 }
