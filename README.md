@@ -1,7 +1,7 @@
 # Description
 
 This is a simple blog-site landing page using the Tailwind CSS framework,
-and organized with a CSS Grid Layout.
+and organized with a CSS Grid Layout and Flexbox.
 
 # Technologies:
 - HTML5
