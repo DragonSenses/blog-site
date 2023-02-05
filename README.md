@@ -49,3 +49,11 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
 7. In Visual Studio Code's explorer, go to "index.html" > right-click > 
 Open with Live Server
+
+
+# What's next?
+
+- [ ] Responsive Design
+- [ ] Header with navbar
+- [ ] Footer with extra details
+- [ ] Populate articles with format -> Top | 2 Asides | Article | Footer
