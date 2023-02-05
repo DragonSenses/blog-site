@@ -50,19 +50,18 @@ Open with Live Server
 
 # What's next?
 
-- [ ] Responsive Design
-- [ ] Mobile First
+- [x] Responsive Design
+- [x] Mobile First
+- [ ] For very large displays (1536px), lots of extra space on first and last post
 - [ ] Header with navbar
 - [x] Footer with extra details
 - [ ] Populate articles with format -> Top | 2 Asides | Article | Footer
 - [ ] Actually have links go to pages within website
-- [ ] 
-
+- [ ] *More coming soon...*
 
 ## Notes I had while making the site
 
-Just moving my comments out of "index.html" and also taking note of some things
-I learned. 
+Moved comments out of "index.html" and also taking note of some things I learned. 
 
 - **Modular**: used Tailwind CSS: applied directives because there was too many classes repeating a lot of the the same class names. So moved them into external CSS sheet "input.css" and gave making reusable and scalable components such as "blog-card" or "post-title".
 
@@ -73,10 +72,12 @@ I learned.
     
   
 - **To make site more *Responsive***:
-  - Went to the Tailwind CSS documentation on ![Responsive Design](https://tailwindcss.com/docs/responsive-design)
+  - Went to the Tailwind CSS documentation on [Responsive Design](https://tailwindcss.com/docs/responsive-design)
   - Tailwind is mobile first
   - Learned about breakpoints
-  
-  1. For large displays, the grid had 3 columns
-  2. For smaller displays, we don't need grid-column-3, we can make it all a single column
-  3. 
+
+  1. For mobile, one column in the grid is preferred.
+  2. For smaller displays, grid-columns-1, since we don't need grid-column-3, we can make it all a single column
+  3. For medium displays, grid-columns-2
+  4. For large displays, grid-columns-3
+  5. Check every div container that manually spans more than one column, and apply responsive design by adding different behavior for each breakpoint (mobile, sm, md, lg, xl, 2xl screen sizes)

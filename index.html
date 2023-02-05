@@ -30,13 +30,19 @@
   </div>
 
   <section class="main">
-    <!-- For Larger Displays columns is 3. Also add gaps in between.-->
+    <!-- 
+      For Mobile & Smaller breakpoints, set column to 1
+      For Medium Displays columns is 2.
+      For Larger Displays columns is 3. Also add gaps in between.
+    -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 gap-x-12">
         <!-- first row -->
-        <div class="col-span-3">
+        <!-- Also apply responsive design to the first post -->
+        <div class="col-span-1 md:col-span-2 lg:col-span-3">
         <!-- The first post -->
         <a href="#" class="blog-card-featured">
-          <div class="w-1/2">
+          <!-- Added flex to img here so it grows to fill in space on lg and up screens -->
+          <div class="flex w-1/2">
             <img src="/dist/img/img1.jpg" alt="image of stationery" class="">
           </div>
           <div class="w-1/2 p-7">
@@ -145,7 +151,8 @@
         </div>
         <!-- second row -->
         <!-- third row -->
-        <div class="blog-card col-span-2">
+        <!-- Responsive design to 5th post medium blog-card -->
+          <div class="blog-card col-span-1 lg:col-span-2">
           <a href="#">
             <img src="/dist/img/img5.jpg" alt="2 pens and a notebook">
             <div class="px-4 pb-6">
