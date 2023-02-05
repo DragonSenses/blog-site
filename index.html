@@ -42,12 +42,14 @@
         <!-- Also apply responsive design to the first post -->
         <div class="col-span-1 md:col-span-2 lg:col-span-3">
         <!-- The first post -->
-        <a href="#" class="blog-card-featured">
+        <!-- Modify first post behavior when it reaches medium breakpoint 768px -->
+        <a href="#" class="border border-gray-100 md:flex rounded-3xl overflow-hidden transition 
+        duration-300 hover:shadow-lg mb-12">
           <!-- Added flex to img here so it grows to fill in space on lg and up screens -->
-          <div class="flex w-1/2">
+          <div class="md:w-1/2">
             <img src="/dist/img/img1.jpg" alt="image of stationery" class="">
           </div>
-          <div class="w-1/2 p-7">
+          <div class="md:w-1/2 p-7">
             <p class="px-3 py-1 bg-our-bg rounded text-sec text-xs inline">FEATURED</p>
             <h2 class="font-bold text-pri text-2xl font-title py-3 transition duration-200 hover:text-sec">Why it is important to spend at
               least work 5 minutes everyday to get closer to your goals.

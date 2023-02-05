@@ -73,9 +73,10 @@ Moved comments out of "index.html" and also taking note of some things I learned
   - 2nd Row is three blog posts each contained in one column
   - 3rd Row the first post takes two columns and the 3rd post takes up one column
     
-  
 - **To make site more *Responsive***:
+
   - Went to the Tailwind CSS documentation on [Responsive Design](https://tailwindcss.com/docs/responsive-design)
+  - Learned about breakpoints
   - Tailwind is mobile first
     > Use unprefixed utilities to target mobile, and override them at larger breakpoints
 
@@ -89,7 +90,7 @@ Moved comments out of "index.html" and also taking note of some things I learned
     <!-- This will only center text on screens 640px and wider, not on small screens -->
     <div class="sm:text-center"></div>
     ```
-  - Learned about breakpoints
+
 
   1. For mobile, one column in the grid is preferred.
   2. For smaller displays, grid-columns-1, since we don't need grid-column-3, we can make it all a single column
