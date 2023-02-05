@@ -51,6 +51,7 @@ Open with Live Server
 # What's next?
 
 - [ ] Responsive Design
+- [ ] Mobile First
 - [ ] Header with navbar
 - [x] Footer with extra details
 - [ ] Populate articles with format -> Top | 2 Asides | Article | Footer
@@ -70,9 +71,12 @@ I learned.
   - 2nd Row is three blog posts each contained in one column
   - 3rd Row the first post takes two columns and the 3rd post takes up one column
     
-How? FlexBox
-  To Do: Responsive display later
-
-- To make site more responsive:
-
   
+- **To make site more *Responsive***:
+  - Went to the Tailwind CSS documentation on ![Responsive Design](https://tailwindcss.com/docs/responsive-design)
+  - Tailwind is mobile first
+  - Learned about breakpoints
+  
+  1. For large displays, the grid had 3 columns
+  2. For smaller displays, we don't need grid-column-3, we can make it all a single column
+  3. 
