@@ -1,7 +1,12 @@
-# Description
-
 This is a blog-site landing page using the Tailwind CSS framework,
 and organized with a CSS Grid Layout and Flexbox.
+
+# Description
+
+A blog-site landing page using the Tailwind CSS framework,
+and organized with a CSS Grid Layout and Flexbox. 
+
+It was quite fun to make. 
 
 <a href="https://dragons-blog-site.netlify.app/">***See It Live!***</a>
 
@@ -97,4 +102,10 @@ Moved comments out of "index.html" and also taking note of some things I learned
   3. For medium displays, grid-columns-2
   4. For large displays, grid-columns-3
   5. Check every div container that manually spans more than one column, and apply responsive design by adding different behavior for each breakpoint (mobile, sm, md, lg, xl, 2xl screen sizes)
-  6. Also check gaps at different breakpoints. Nice for large displays but gaps could be too wide on smaller displays. 
+  6. Also check **gaps** at different breakpoints. Nice for large displays but gaps could be too wide on smaller displays. 
+  7. After applying responsive design to the first & featured blog-card, it lost its borders and adds some stray line. Happens because it is an `inline` element, an anchor link to the featured blog-post. Either conver to `div` to solve the issue or add `block` to anchor class.  
+  8. Check **font-sizes**, at smaller displays adapt (see first blog-card)
+    ```css
+    text-xl md:text-2xl
+    ```
+  9. If a div is taking up too much space, check it and every element within it if they have either `padding` or `margin`, and update those accordingly. 
