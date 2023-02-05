@@ -50,13 +50,16 @@ Open with Live Server
 
 # What's next?
 
+- [ ] Dark Mode (my favorite feature)
 - [x] Responsive Design
 - [x] Mobile First
-- [ ] For very large displays (1536px), lots of extra space on first and last post
+- [ ] For extra-large displays (1536px), fix space on 1st and last item
 - [ ] Header with navbar
 - [x] Footer with extra details
 - [ ] Populate articles with format -> Top | 2 Asides | Article | Footer
 - [ ] Actually have links go to pages within website
+- [ ] Separate the logic of author/author-image/author-title to be fixed to the bottom
+of a div blog-card item
 - [ ] *More coming soon...*
 
 ## Notes I had while making the site
@@ -74,6 +77,18 @@ Moved comments out of "index.html" and also taking note of some things I learned
 - **To make site more *Responsive***:
   - Went to the Tailwind CSS documentation on [Responsive Design](https://tailwindcss.com/docs/responsive-design)
   - Tailwind is mobile first
+    > Use unprefixed utilities to target mobile, and override them at larger breakpoints
+
+    ```css
+    <!-- This will center text on mobile, and left align it on screens 640px and wider -->
+    <div class="text-center sm:text-left"></div>
+    ```
+
+    > Don't use sm: to target mobile devices
+    ```css
+    <!-- This will only center text on screens 640px and wider, not on small screens -->
+    <div class="sm:text-center"></div>
+    ```
   - Learned about breakpoints
 
   1. For mobile, one column in the grid is preferred.
@@ -81,3 +96,4 @@ Moved comments out of "index.html" and also taking note of some things I learned
   3. For medium displays, grid-columns-2
   4. For large displays, grid-columns-3
   5. Check every div container that manually spans more than one column, and apply responsive design by adding different behavior for each breakpoint (mobile, sm, md, lg, xl, 2xl screen sizes)
+  6. Also check gaps at different breakpoints. Nice for large displays but gaps could be too wide on smaller displays. 
