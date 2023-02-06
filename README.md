@@ -1,14 +1,11 @@
-This is a blog-site landing page using the Tailwind CSS framework,
-and organized with a CSS Grid Layout and Flexbox.
+<a href="https://dragons-blog-site.netlify.app/">***See It Live!***</a>
 
 # Description
 
-A blog-site landing page using the Tailwind CSS framework,
+A responsive blog-site landing page using the Tailwind CSS framework,
 and organized with a CSS Grid Layout and Flexbox. 
 
 It was quite fun to make. 
-
-<a href="https://dragons-blog-site.netlify.app/">***See It Live!***</a>
 
 # Technologies:
 - HTML5
@@ -17,6 +14,10 @@ It was quite fun to make.
 # Instructions to run
 
 1. Go to https://dragons-blog-site.netlify.app/ for a Live Demo
+
+# License
+
+Stock photos are under the [Pixabay License](https://pixabay.com/service/license/). Credits go to their respective owners. 
 
 # Prerequisites
 - Node.js
