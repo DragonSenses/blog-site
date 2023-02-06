@@ -60,7 +60,8 @@ Open with Live Server
 - [x] Responsive Design
 - [x] Mobile First
 - [x] For extra-large displays (1536px), fix space on 1st and last item
-- [ ] Header with navbar
+- [x] Header with navbar
+- [x] Interactive menu button for navbar on mobile/small displays
 - [x] Footer with extra details
 - [ ] Populate articles with format -> Top | 2 Asides | Article | Footer
 - [ ] Actually have links go to pages within website
@@ -110,3 +111,6 @@ Moved comments out of "index.html" and also taking note of some things I learned
     text-xl md:text-2xl
     ```
   9. If a div is taking up too much space, check it and every element within it if they have either `padding` or `margin`, and update those accordingly. 
+  10. When making a navbar in the header, make sure to modify elements when on small displays. e.g., 
+  make hidden menu-items but replace with a button to show. And treat items as block-level elements
+  on small displays but inline elements on larger displays. 
