@@ -59,14 +59,14 @@ Open with Live Server
 - [ ] Dark Mode (my favorite feature)
 - [x] Responsive Design
 - [x] Mobile First
-- [ ] For extra-large displays (1536px), fix space on 1st and last item
+- [x] For extra-large displays (1536px), fix space on 1st and last item
 - [ ] Header with navbar
 - [x] Footer with extra details
 - [ ] Populate articles with format -> Top | 2 Asides | Article | Footer
 - [ ] Actually have links go to pages within website
 - [ ] Separate the logic of author/author-image/author-title to be fixed to the bottom
 of a div blog-card item
-- [ ] *More coming soon...*
+- [ ] *More coming some day...*
 
 ## Notes I had while making the site
 

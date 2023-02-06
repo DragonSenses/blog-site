@@ -9,6 +9,37 @@
 
 <!-- If font is not specifically specified, then apply default body font -->
 <body class="font-body bg-purple-50">
+  <div class="bg-purple-50 shadow-md">
+    <header class="container mx-auto max-w-7xl flex items-center px-6">
+      <!-- Logo and Blog Name -->
+      <div class="flex item-center text-sec hover:text-pri cursor-pointer transition">
+        <img src="/src/assets/img/first-high-emblem.jpg" 
+        class="fill-current h-8 w-8 mr-2" viewBox="0 0 54 54">
+        <span class="font-semibold text-xl font-title">Four-Leaves News</span>
+      </div>
+      <!-- nav bar -->
+      <nav class="font-title">
+        <ul class="text-lg">
+          <li class="inline-block items-center">
+            <a href="#" class="text-pri hover:text-sec transition">Home</a>
+          </li>
+          <li class="inline-block items-center">
+            <a href="#" class="text-pri hover:text-sec transition">Posts</a>
+          </li>
+          <li class="inline-block items-center">
+            <a href="#" class="text-pri hover:text-sec transition">About</a>
+          </li>
+          <li class="inline-block items-center">
+            <a href="#" class="text-pri hover:text-sec transition">Contact</a>
+          </li>
+          <li class="inline-block items-center">
+            <a href="#" class="text-pri hover:text-sec transition">Shop</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
   <div class="container px-4 mx-auto max-w-5xl">
     <!-- Add padding to y direction for both top and bottom of center title -->
     <div class="text-center py-10 sm:py-14"> 
@@ -242,7 +273,7 @@
   </section>
 
   <footer class="bg-pri">
-    <div class="sm:flex text-center px-12 text-white font-bold py-8 font-title font-extrabold
+    <div class="sm:flex text-center px-12 md:px-4 text-white font-bold py-8 font-title font-extrabold
       justify-between max-w-5xl mx-auto tracking-wider">
       <p>フォア・リーブス・テクノロジー</p>
       <p>Copyright &copy; 2023. Four Leaves Technology. All rights reserved</p>
