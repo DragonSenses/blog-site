@@ -10,29 +10,31 @@
 <!-- If font is not specifically specified, then apply default body font -->
 <body class="font-body bg-purple-50">
   <div class="bg-purple-50 shadow-md">
-    <header class="container mx-auto max-w-7xl flex items-center px-6">
+    <!-- Padding of 6 all around navbar, and justify between elements: icon/name & menu items -->
+    <header class="container mx-auto max-w-7xl flex items-center p-6 justify-between">
       <!-- Logo and Blog Name -->
       <div class="flex item-center text-sec hover:text-pri cursor-pointer transition">
         <img src="/src/assets/img/first-high-emblem.jpg" 
-        class="fill-current h-8 w-8 mr-2" viewBox="0 0 54 54">
-        <span class="font-semibold text-xl font-title">Four-Leaves News</span>
+        class="pointer-events-none h-8 w-8 mr-2 lg:mr-4 lg:h-12 lg:w-12" viewBox="0 0 54 54">
+        <span class="font-semibold text-xl lg:text-3xl  font-title">Four-Leaves News</span>
       </div>
       <!-- nav bar -->
       <nav class="font-title">
-        <ul class="text-lg">
-          <li class="inline-block items-center">
+        <!--  -->
+        <ul class="text-lg lg:text-2xl">
+          <li class="inline-block items-center mr-4">
             <a href="#" class="text-pri hover:text-sec transition">Home</a>
           </li>
-          <li class="inline-block items-center">
+          <li class="inline-block items-center mr-4">
             <a href="#" class="text-pri hover:text-sec transition">Posts</a>
           </li>
-          <li class="inline-block items-center">
+          <li class="inline-block items-center mr-4">
             <a href="#" class="text-pri hover:text-sec transition">About</a>
           </li>
-          <li class="inline-block items-center">
+          <li class="inline-block items-center mr-4">
             <a href="#" class="text-pri hover:text-sec transition">Contact</a>
           </li>
-          <li class="inline-block items-center">
+          <li class="inline-block items-center mr-4">
             <a href="#" class="text-pri hover:text-sec transition">Shop</a>
           </li>
         </ul>
